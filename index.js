@@ -73,8 +73,9 @@ function renderProducts(){
       <p style="
         grid-column:1/-1;
         text-align:center;
-        color:#9ca3af;
+        color:#64748b;
         padding:40px;
+        font-size:15px;
       ">
         No products found.
       </p>
