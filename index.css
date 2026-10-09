@@ -75,18 +75,27 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 25px;
+  overflow: visible;
 }
 
+/* LOGO */
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-height: 48px;
 }
 
-.logo img {
+.logo img,
+.logo svg,
+.logo-svg {
   height: 48px;
   width: auto;
-  max-width: 200px;
+  max-width: 190px;
+  display: block;
   object-fit: contain;
+  overflow: visible;
 }
 
 .links {
@@ -753,7 +762,9 @@ footer {
     padding: 10px 16px;
   }
 
-  .logo img {
+  .logo img,
+  .logo svg,
+  .logo-svg {
     height: 40px;
     max-width: 150px;
   }
@@ -930,7 +941,9 @@ footer {
     font-size: 30px;
   }
 
-  .logo img {
+  .logo img,
+  .logo svg,
+  .logo-svg {
     height: 36px;
     max-width: 130px;
   }
